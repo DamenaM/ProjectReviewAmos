@@ -1,0 +1,126 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;  
+}
+.Email-con .btn{
+    background-color: rgb(247, 223, 9);
+    font-size: medium;  
+    text-decoration: none; 
+    list-style: none;
+}
+.section1 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    margin-top: 10px;
+}
+.section1 .btn {
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 20px;
+    width: 80px;
+}
+.btn input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.nav-bar ul li{
+    margin: 10px; 
+    font-size: 20px;
+    color: blue;
+}
+ul{
+    list-style: none;
+}
+a{
+text-decoration: none; 
+}
+a:hover{
+    color: rgb(94, 92, 97);
+    background-color: aliceblue;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+}
+.pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin: 10px;   
+    text-align: center; 
+}
+.icon {
+    display: flex;
+    background-color: rgb(243, 235, 235); 
+}
+.Quality {
+    display: flex;
+    background-color: rgb(243, 235, 235); 
+}
+.Fast {
+    display: flex;
+    background-color: rgb(243, 235, 235); 
+}
+.Premium {
+    display: flex;
+    background-color: rgb(243, 235, 235); 
+}
+
+.level {
+    background-color: rgb(188, 189, 187);
+    color: rgb(94, 91, 91);
+    padding: 10px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.level-container{
+    border: 1px solid black;
+}
+.pricing  .btn {
+    border: 20px;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+}
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+}
+footer  ul {
+    display: flex;
+    justify-content: flex-end;
+}
+footer span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}
+#video {
+    max-width: 800px;
+    padding-right: 100px;
+    width: 100%;
+    align-items:center;
+    
+}
